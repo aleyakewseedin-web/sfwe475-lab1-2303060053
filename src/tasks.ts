@@ -23,7 +23,7 @@ export function toggleTask(tasks: Task[], id: number): Task[] {
   );
 }
 
-type TaskFilter = "all" | "done" | "open";
+export type TaskFilter = "all" | "done" | "open";
 
 export function filterTasks(
   tasks: Task[],
