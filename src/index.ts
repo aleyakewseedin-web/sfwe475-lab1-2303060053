@@ -1,4 +1,10 @@
-import { addTask, findTask, Task } from "./tasks";
+import {
+  addTask,
+  findTask,
+  toggleTask,
+  filterTasks,
+  Task,
+} from "./tasks";
 
 let tasks: Task[] = [];
 
@@ -17,3 +23,7 @@ if (missingTask) {
 } else {
   console.log("Task not found");
 }
+
+tasks = toggleTask(tasks, 1);
+
+console.log(filterTasks(tasks, "done"));
