@@ -1,0 +1,27 @@
+{
+  "name": "sfwe475-lab1-2303060053",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "start": "tsx src/index.ts"
+     },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleyakewseedin-web/sfwe475-lab1-2303060053.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aleyakewseedin-web/sfwe475-lab1-2303060053/issues"
+  },
+  "homepage": "https://github.com/aleyakewseedin-web/sfwe475-lab1-2303060053#readme",
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
+
