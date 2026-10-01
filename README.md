@@ -16,3 +16,13 @@ npm install
 
 npm run start
 
+
+
+\## type checking
+
+
+
+npm run typecheck
+
+
+
