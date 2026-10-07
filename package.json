@@ -6,7 +6,7 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "start": "tsx src/index.ts"
-     },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aleyakewseedin-web/sfwe475-lab1-2303060053.git"
@@ -22,6 +22,8 @@
   "devDependencies": {
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
   }
 }
-
